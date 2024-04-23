@@ -1,0 +1,105 @@
+
+#textbox1 {
+    align-items: center;
+    box-sizing: border-box;
+    width: 544px;
+    height: 312px;
+    padding: 8px;
+    margin-left: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    background-color: #ffdfdf;
+}
+#textbox2{
+    box-sizing: border-box;
+    position: relative;
+    width: 480px;
+    height: 256px;
+    bottom: 384px;
+    margin-left: 96px;
+    margin-top: 32px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(200, 242, 255);
+
+}
+@keyframes blink {
+
+    from {background-color: blue}
+    to {background-color: yellow;}
+}
+#textbox3 {
+    box-sizing: border-box;
+    position: relative;
+    padding: 8px;
+    width: 480px;
+    height: 288px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-left:592px;
+    bottom: 624px;
+    animation-name: blink;
+    animation-duration: .2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+#img1 {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 347px;
+    left: 620px;
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+}
+#title {
+    margin-left: 20%;
+}
+#arrow {
+    box-sizing: border-box;
+    position: relative;
+    object-fit: contain;
+    width: 128px;
+    height: 128px;
+    left: 512px;
+    bottom: 496px;
+}
+
+#ghost1{
+
+    position: relative;
+    bottom: 128px;
+}
+#ghost2 {
+
+    position: relative;
+    bottom: 256px;
+    left: 576px;
+}
+#textbox4 {
+    box-sizing: border-box;
+    position: relative;
+    width: 544px;
+    height: 288px;
+    padding: 32px;
+    margin-left: 352px;
+    bottom: 224px;
+    font-size: 28px;
+    text-align: center;
+    background-color: rgb(178, 226, 182);
+}
+#link {
+
+    position: relative;
+    left: 375px;
+    color:red;
+    text-align: center;
+    font-style: oblique;
+    font-size: 24px;
+    bottom: 448px;
+}
